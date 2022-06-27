@@ -33,11 +33,11 @@ Customer segmentation is the process by which we divide our customers up based o
 
 ### Dataset Inspection
 * Dataset inspection suggests that there are a handful of missing values for a certain features. With Work Province and City having the most numbers of missing values, almost 6 percent of missing data out of total.
-* Aside from missing values aswell, there are abnormal value, in which certain values contains unnecessary symbol, also in work city / province features. We will consider this as also a missing values.
+* Aside from missing values as well, there are abnormal values in which certain values contains unnecessary symbol, also in work city / province features. We will consider this as missing values.
 
 ### Data Cleaning
 * The step begins by first, cleaning the missing values. For categorical features, we can simply use siple imputer with `most-frequent` as the method. This will allow the missing values to e replaced by a values in which are most frequently occuring in that specific features. 
-* Whilst for numerical ones, we can use also simple imputer however `median` willbe the method we used to replaced missing values.
+* Whilst for numerical ones, we can use also simple imputer however `median` will be the method we used to replaced missing values.
 * Lastly for abnormal values, we are limited to only dropping the entire row.
 * Cross checking missing values.
 
@@ -57,5 +57,21 @@ Customer segmentation is the process by which we divide our customers up based o
 ### Pre Processing Data
 * Preparing data for unsupervised clustering model. With the help of pycaret built-in processing algorithm, we can simplifie the process. Here the parameters:
 
-### Creating K Mean CLuster Model
-* 
+### K Mean Cluster Modeling and Evaluation
+* First we make a default 4 different groups / cluster. AFter, we will evaluate the model performance using elbow method.
+* The Elbow method is a heuristic used in determining the number of clusters in a data set. The method consists of plotting the explained variation as a function of the number of clusters, and picking the elbow of the curve as the number of clusters to use. The same method can be used to choose the number of parameters in other data-driven models, such as the number of principal components to describe a data set. 
+* Elbow method provides us the means to evaluate K cluster and determine which clusters is the most optimum. For this dataset, the optimum is 5 clusters. 
+* Build 2 different models, one with k = 4 and k = 5.
+
+### Feature Selection / Parameters 
+* The step is very necessary due to the amounts of features available. It is also worth noting that K means only accepts numerical features. 
+* Correlation plot helps us determine fchosen features
+
+
+* Features chosen for parameters are : Total Flight Count, Total KM, Total Fare Revenue, Average Interval and Last to End.
+
+### Cluster Comparison using Radar Plot
+From the plots we can infer:
+* When the k is 4, we can clearly see the difference amongst each clusters, in terms of all the selected parameter features, Average Interval, Fare Revenue and 
+
+
