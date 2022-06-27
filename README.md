@@ -18,7 +18,6 @@ Customer segmentation is the process by which we divide our customers up based o
 * Pre processing Data
 * K means model implementation
 
-
 ### Library and Resources Used:
 * `Packages` : pandas, numpy, matplotlib, seaborn, sci-kit learn, pycaret.
 
@@ -37,4 +36,26 @@ Customer segmentation is the process by which we divide our customers up based o
 * Aside from missing values aswell, there are abnormal value, in which certain values contains unnecessary symbol, also in work city / province features. We will consider this as also a missing values.
 
 ### Data Cleaning
+* The step begins by first, cleaning the missing values. For categorical features, we can simply use siple imputer with `most-frequent` as the method. This will allow the missing values to e replaced by a values in which are most frequently occuring in that specific features. 
+* Whilst for numerical ones, we can use also simple imputer however `median` willbe the method we used to replaced missing values.
+* Lastly for abnormal values, we are limited to only dropping the entire row.
+* Cross checking missing values.
+
+* Dataset has been cleaned.
+
+### Descriptive Statistics
+
+* At a glance, we can see that, on average Customer's Fare Revenue on 1st Year and 2nd Year (SUM_YR1 & SUM_YR_2) are similar around 5300 to 5500.
+* Total Fare Revenue 
+* Customer's average interval from last flight to newly booked one are around 176 days.
+* Average customer Total flight (by KM) is around 17128 km.
+
+### Numerical Distribution
+
+* Quick look at the plot, majority of features are rightly skewed, while only 2 that are in what we called 'normal' sitribtuion. Notably Average Discount and Age of customers.
+
+### Pre Processing Data
+* Preparing data for unsupervised clustering model. With the help of pycaret built-in processing algorithm, we can simplifie the process. Here the parameters:
+
+### Creating K Mean CLuster Model
 * 
