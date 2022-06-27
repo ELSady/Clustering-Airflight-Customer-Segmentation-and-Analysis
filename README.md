@@ -78,7 +78,7 @@ From the plots we can infer:
 
 ### Cluster Analysis
 * Cluster 1 consists of 1918 customers, the least of all clusters. This group of customers flew using the airlines services very frequently, evident by Total Fare revenue generated and total Flight attended are the highest, also distance KM traveled is the largest. Their average interval are also the lowest. They are the loyal value customers who needs to be well maintained.
-* Cluster 3 consists of 28790, the most out all of clusters. This group of people is what we considered the lost customers. Characterised by the low count of amount of flight, distance traveled, and fare revenue generated. This group of customers also has the longest average interval of all 4 clusters. Possibly, they had taken flight numerous count but then decided to stop using the airlines services. For them, should try to grasp the latest information of these customers, maintain interaction with them, and adopt certain marketing methods like preferential measures and cross-selling to restore such customers. 
-* Cluster 2 
+* Cluster 2 consists of 28790, the most out all of clusters. CHaracterized by a low count of flight, fare revenue generated and low distance traveled. 
+* Cluster 3 consists of 19255. This group of people is what we considered the lost customers. Characterised by the low count of amount of flight, distance traveled, and fare revenue generated. This group of customers have the longest last to end, meaning the last time they used the company's services is a long time since. Possibly, they had taken flight numerous times in the past, but then decided to stop using the services. For them, should try to grasp the latest information of these customers, maintain interaction with them, and adopt certain marketing methods like preferential measures and cross-selling to restore such customers. 
 
 
