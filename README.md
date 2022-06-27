@@ -78,7 +78,14 @@ From the plots we can infer:
 
 ### Cluster Analysis
 * Cluster 1 consists of 1918 customers, the least of all clusters. This group of customers flew using the airlines services very frequently, evident by Total Fare revenue generated and total Flight attended are the highest, also distance KM traveled is the largest. Their average interval are also the lowest. They are the loyal value customers who needs to be well maintained.
-* Cluster 2 consists of 28790, the most out all of clusters. CHaracterized by a low count of flight, fare revenue generated and low distance traveled. 
+* Cluster 2 consists of 28790, the most out all of clusters. Characterized by a low count of flight, fare revenue generated and low distance traveled. THe average iterval of flight booking is the highest of all. This gorup of people is the occasional / seeanal customer. They book flight on a occasion or during specific holiday season. For them, it to be mainatain as awell aside on top of stimulate consumptiton.
 * Cluster 3 consists of 19255. This group of people is what we considered the lost customers. Characterised by the low count of amount of flight, distance traveled, and fare revenue generated. This group of customers have the longest last to end, meaning the last time they used the company's services is a long time since. Possibly, they had taken flight numerous times in the past, but then decided to stop using the services. For them, should try to grasp the latest information of these customers, maintain interaction with them, and adopt certain marketing methods like preferential measures and cross-selling to restore such customers. 
+* Cluster 4 consists of 12983. Characterized by an average amount of all aspects and parameters. They are what we called the regular customer. They also need to be maintained and stimulate cnosummption albeit not to an extent like the previous cluster.
 
+### Conclusion
+* Cluster 1 are the loyal customers, they are those whoo needs to be maintained as best as possible.
+* Cluster 2 are seasonal customers, in terms of number they are the most of all. Needs to be maintained and give stimulus consumption.
+* Cluster 3 are the lost customers, they need further interaction and possibly certain market strategies to attarct them back using the services.
+* Cluster 4 are the regular customer, like the previous ones, the also need stimulus consumoptions.
+* Airlines conpany should take notes on 2nd cluster as they are likely to churn. By providing discounts at certain holidays seasos cnan help stimulate their consumption. 
 
