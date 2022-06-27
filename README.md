@@ -72,6 +72,13 @@ Customer segmentation is the process by which we divide our customers up based o
 
 ### Cluster Comparison using Radar Plot
 From the plots we can infer:
-* When the k is 4, we can clearly see the difference amongst each clusters, in terms of all the selected parameter features, Average Interval, Fare Revenue and 
+* When the k is 4, we can clearly see the difference amongst each clusters, in terms of all the selected parameter features, Average Interval, Fare Revenue and DIstance between last flight and recent new booking. 4 clusters are very different, and are easily distinguishable.  
+* While k is 5, is similar to the previous one, however the one newly added cluster is completely similar to the fourth cluster, and the clustering is slightly redundant. 
+* So, 4 clusters is the best for this dataset. Further analysis on each cluster are follows.
+
+### Cluster Analysis
+* Cluster 1 consists of 1918 customers, the least of all clusters. This group of customers flew using the airlines services very frequently, evident by Total Fare revenue generated and total Flight attended are the highest, also distance KM traveled is the largest. Their average interval are also the lowest. They are the loyal value customers who needs to be well maintained.
+* Cluster 3 consists of 28790, the most out all of clusters. This group of people is what we considered the lost customers. Characterised by the low count of amount of flight, distance traveled, and fare revenue generated. This group of customers also has the longest average interval of all 4 clusters. Possibly, they had taken flight numerous count but then decided to stop using the airlines services. For them, should try to grasp the latest information of these customers, maintain interaction with them, and adopt certain marketing methods like preferential measures and cross-selling to restore such customers. 
+* Cluster 2 
 
 
